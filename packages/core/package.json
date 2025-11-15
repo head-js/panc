@@ -1,0 +1,15 @@
+{
+  "name": "@head.js/panc-core",
+  "version": "0.1.0",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "build": "run-p build:cjs build:esm",
+    "build:cjs": "rm -rf cjs && tsc -p tsconfig.cjs.json",
+    "build:esm": "rm -rf esm && tsc -p tsconfig.esm.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/head.js/panc.git"
+  }
+}

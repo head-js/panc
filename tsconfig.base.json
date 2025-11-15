@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "experimentalDecorators": true,
+    "esModuleInterop": true,
+    "importHelpers": false,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "strict": true,
+    "target": "es2017",
+    "sourceMap": true,
+    "jsx": "react",
+
+    "types": [],
+    "lib": ["ES2020", "DOM"],
+
+    "paths": {
+      "@head.js/core": ["./packages/core/src"],
+      "@head.js/rum-core": ["./packages/rum-core/src"],
+      "@head.js/rum-react": ["./packages/rum-react/src/entries/main"],
+      "@head.js/rum-react/react-router-v6": ["./packages/rum-react/src/entries/reactRouterV6"]
+    }
+  }
+}
