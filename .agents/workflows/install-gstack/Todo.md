@@ -1,0 +1,4 @@
+# Todo
+
+- Fold the `claude` skill's functionality (independent Claude Code CLI review, challenge, and consult modes) into the relevant existing skills (`review`, `plan-eng-review`, `plan-ceo-review`, etc.) so the workflow does not depend on a standalone `claude` skill. The `claude` skill is currently skipped because this project runs on Claude Code (Kilo) directly and has no second AI to invoke; the underlying capability is correct, but its packaging as a separate skill is not.
+- Fold the `benchmark-models` skill's functionality (cross-model comparison across Claude, GPT, Gemini) into the relevant existing skills (`qa`, `review`, etc.) so the workflow does not depend on a standalone `benchmark-models` skill. The `benchmark-models` skill is currently skipped because this project runs only Claude (Kilo) and has no second or third model to compare against; the underlying capability is correct, but its packaging as a separate skill is not.
